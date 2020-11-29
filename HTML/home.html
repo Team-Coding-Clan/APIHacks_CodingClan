@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>RESULTS</title>
+  {% load static %}
+<link rel="stylesheet" type="text/css" href="{%static '1.css' %}">
+<link href='https://fonts.googleapis.com/css?family=Caveat Brush' rel='stylesheet'>
+</head>
+<body>
+<div class="wrapper">
+  <br><br><br><br><h1>The results of carbon emission and CO2 produced due to your lifestyle.</h1><br><br><br>
+  <div class="team">
+    <div class="team_member">
+      <div class="team_img">
+        <img src="https://image.freepik.com/free-vector/cute-girl-gaming-holding-joystick-cartoon-icon-illustration-people-technology-icon-concept-isolated-flat-cartoon-style_138676-2169.jpg" alt="Team_image">
+      </div>
+      <h3>CARBON EMISSION ACC TO YOUR LIFESTYLE</h3><br>
+      <p style="color:Tomato; font-size: 150%"> <u><b>RESULTS:{{getvalue}}</u></b> </p><br><br><br><br>
+
+    </div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="https://image.freepik.com/free-vector/cute-astronaut-hot-air-balloon-earth-cartoon-icon-illustration-science-transportation-icon-concept-isolated-flat-cartoon-style_138676-2092.jpg" alt="Team_image">
+      </div>
+      <h3>Carbon emission of your country</h3><br>
+      <p style="color:Tomato; font-size: 150%"><u><b>RESULTS:{{countrycode}}</u></b></p><br><br><br><br>
+     </div>
+    </div>
+</div>
+<br><br><p id="p"> Let's check out what you can do to reduce your carbon emission!<a href="{% url 'questions' %}"> click here </a> </p>
+</body>
+</html>
