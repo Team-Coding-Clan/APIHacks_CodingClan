@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Questions!</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'questions1.css' %}">
+</head>
+<body>
+<div class="wrapper">
+    <p> Do You....</p><br>
+   <form method="post" action="{% url 'recommendations' %}">{% csrf_token %}
+          <label for="Jogging">Practice (Jogging/Treadmill)?</label>
+          <select id="Jogging" name="Jogging">
+            <option value="Jogging">Jogging</option>
+              <option value="Treadmill">Treadmill</option></select><br>
+          <label for="LED">Use (LED/Bulb)?</label>
+          <select id="LED" name="LED">
+            <option value="LED">LED</option>
+              <option value="Bulb">Bulb</option></select><br>
+          <label for="Solar">Use Solar Panels (Yes/No)?</label>
+          <select id="Solar" name="Solar">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option></select><br>
+          <label for="transport">Use (Public/Private) transport?</label>
+          <select id="transport" name="transport">
+            <option value="Public">Public</option>
+            <option value="Private">Private</option></select><br>
+          <label for="diet">take (Vegan/Vegetarian/Non-Vegetarian) diet?</label>
+          <select id="diet" name="diet">
+            <option value="Vegan">Vegan</option>
+            <option value="Vegetarian">Vegetarian</option>
+            <option value="Non-Vegetarian">Non-Vegetarian</option></select><br>
+          <label for="ac">Use Air Conditioner(Yes/No)?</label>
+          <select id="ac" name="ac">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option></select><br>
+          <label for="bags">Use (Jute Bags/Polyethene Bags)?</label>
+          <select id="bags" name="bags">
+            <option value="Polythene bags">Polythene bags</option>
+            <option value="Jute bags">Jute bags</option></select><br>
+          <label for="shop">Go for shopping frequently (Yes/No)?</label>
+          <select id="shop" name="shop">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option></select><br>
+          <label for="Laptop">Have (Laptop/Desktop)?</label>
+          <select id="Laptop" name="Laptop">
+            <option value="Laptop">Laptop</option>
+            <option value="Desktop">Desktop</option></select><br>
+          <label for="car">Keep your car's fuel efficiency in check(Yes/No)?</label>
+          <select id="car" name="car">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option></select><br>
+          <label for="flights">Take flights for a shorter journey(Yes/No)?</label>
+          <select id="flights" name="flights">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option></select><br>
+              <input type="submit" value="submit">
+
+    </form>
+</body>
+</html>
