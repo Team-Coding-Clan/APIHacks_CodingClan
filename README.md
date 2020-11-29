@@ -14,6 +14,7 @@ Team name : **Coding Clan**
 * [Technologies](#technologies)
   * Languages
   * Environment
+* [Project Status](#project-status)
 ## What is Carbon footprint
 [![Watch the video](https://github.com/Team-Coding-Clan/APIHacks_CodingClan/blob/main/image/cover.png)](https://www.youtube.com/watch?v=JmtKc1YMSdY&feature=youtu.be)
 ## Name
@@ -32,3 +33,5 @@ Project is created with:
 * Python
 * HTML / CSS
 * Pycharm (Django framework)
+## Project Status
+This project is a prototype of the idea the team wishes to implement. The basic idea of the project is accomplished.
