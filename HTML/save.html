@@ -1,0 +1,18 @@
+
+<html>
+<head>
+<title>HOMEPAGE </title>
+  {% load static %}
+<link rel="stylesheet" type="text/css" href="{%static 'save.css' %}">
+<link href='https://fonts.googleapis.com/css?family=Caveat Brush' rel='stylesheet'>
+</head>
+<body>
+<br><br><h1><b>CarboPre</b> </h1><br>
+<video width="320" height="240" controls>
+  <source src="{%static 'carbon.mp4' %}" type="video/mp4">
+</video>
+<p> IT IS OUR COLLECTIVE AND INDIVIDUAL </p>
+<p> RESPONSIBILITY....</p>
+<p> TO PRESERVE AND TEND TO </p>
+<p> THE WORLD IN WHICH WE ALL LIVE </p>
+<p><a  href="{% url 'index' %}">Let's check out your carbon footprint!</a></p>
