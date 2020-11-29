@@ -1,0 +1,39 @@
+*/
+*{
+margin: 0;
+padding: 0;
+}
+body
+{
+   background:url('bg.jpg');
+   background-size:cover;
+}
+h1{
+   font-family:Comic Sans MS;
+   font-size:50px;
+   color:red;
+}
+p{
+   font-family: 'Sansita Swashed', cursive;
+   font-size:40px;
+}
+.header{
+   text-align:center;   
+   width: 100%;
+   font-size:40px;
+}
+.header .logo{
+   font-size:20px;
+   font-family:font-family: 'Caveat Brush', cursive;
+   text-align:justify;
+   width: 370px;
+   margin: 25px auto;
+}
+.news {
+   font-family: 'Roboto', sans-serif;
+   font-size: large;
+}
+.link, 
+.link1{
+    background:yellow;
+}
