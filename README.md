@@ -10,8 +10,8 @@ Team name : **Coding Clan**
 ## What is Carbon footprint
 [![Watch the video](https://github.com/Team-Coding-Clan/APIHacks_CodingClan/blob/main/image/cover.png)](https://www.youtube.com/watch?v=JmtKc1YMSdY&feature=youtu.be)
 ## Name
-Carbo = carbon dioxide <br>
-Pre = prevention.
+Carbo = Carbon Dioxide <br>
+Pre = Prevention.
 ## About
 * Introduces user to Carbon footprint
 * Helps determine Carbon footprint of the user
