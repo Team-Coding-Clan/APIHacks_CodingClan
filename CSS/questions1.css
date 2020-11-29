@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   outline:none;
+   font-family: 'Nerko One', cursive;
+}
+
+body{
+   background: url('https://images.pexels.com/photos/70741/cereals-field-ripe-poppy-70741.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat top center;
+   bcakground-size:cover;  
+   height: fit-content;
+   font-family:Sans-serif;
+}
+div{
+  height:1050px;
+}
+.wrapper{
+   max-width:800px;
+   border-radius:20px;
+   margin:auto;
+   background:rgba(0,0,0,0.8);
+   box-sizing:border-box;
+   padding:40px;
+   color:white;
+   margin-top:100px;
+}
+p{
+   font-size:50px;
+   font-family:sans-serif;
+}
+.wrapper select{
+   width:100%;
+   box-sizing:border-box;
+   padding:12px 5px;
+   background:rgba(0,0,0,0.10);
+   outline:none;
+   border:none;
+   border-bottom:1px dotted #fff;
+   color:red;
+   border-radius:5px;
+   margin:5px;
+   font-weight:bold;
+   font-size:15px;
+
+}
+input[type=submit]{
+   width:100%;
+   box-sizing:border-box;
+   padding: 10px 0;
+   margin-top:30px;
+   outline:none;
+   border:none;
+   background:#60adde;
+   opacity:0.7;
+   border-radius:20px;
+   font-size:30px;
+   color:#fff;
+   font-family:sans-serif;
+   font-size:30px;
+}
