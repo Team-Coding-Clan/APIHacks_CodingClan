@@ -6,7 +6,7 @@ import wbdata as w
 # Create your views here.
 def index(request):
     # return HttpResponse('Hey!!')
-    return render(request, "index.html")
+    return render(request, "carboncheck.html")
 
 
 def home(request):
@@ -120,7 +120,7 @@ def home(request):
         print(result)
         print(kaya_value)
 
-    return render(request, "home.html", {'getvalue': result, 'countrycode': kaya_value})
+    return render(request, "result.html", {'getvalue': result, 'countrycode': kaya_value})
 
 
 def recommendations(request):
@@ -189,4 +189,4 @@ def questions(request):
     return render(request, "questions.html")
 
 def save(request):
-    return render(request, "save.html")
+    return render(request, "home.html")
