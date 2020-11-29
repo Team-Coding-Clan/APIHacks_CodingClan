@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>News And Measures</title>
+    {% load static %}
+<link rel="stylesheet" type="text/css" href="{%static 'news.css' %}">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="header">
+        <h1>What You Should Do?</h1>
+        <p>Follow these measures in your daily life to make a difference.</p>
+            {% for item in recommendations %}
+            <div class="logo">
+            {{item}}
+            {% if item != "" %}
+            <br>
+            {% endif %}
+            </div>
+            {% endfor %}
+        <br>News feed<br>
+        {% for i in data %}
+            <font face="Roboto" size="5"><div class="news">{{ i }}</div></font>
+        {% endfor %}
+
+        <br>Act Now<br>
+      <div class="link"><a href="https://www.un.org/en/actnow/" target="_blank"><font face="Roboto" size="5">Join the UN Campaign for Individual Action</font></a></div> <br><br>
+        Upcoming Events to follow<br>
+      <div class="link1"><a href="https://www.un.org/events/81993" target="_blank"><font face="Roboto" size="5">Climate Action Events</font></a></div>
+   </div>
+</body>
+</html>
