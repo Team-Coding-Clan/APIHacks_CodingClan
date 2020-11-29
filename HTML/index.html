@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Carbon emission check</title>
+    {% load static %}
+<link rel="stylesheet" type="text/css" href="{%static 'carbon1.css' %}">
+<link href='https://fonts.googleapis.com/css?family=Caveat Brush' rel='stylesheet'>
+</head>
+<body>
+    <form method="post" action="{% url 'home' %}">{% csrf_token %}
+<fieldset>
+<legend> YOUR DAILY ACTIVITY CHECK </legend><br>
+<b>1. Which heating source do you use?(like coal, LPG)</b>:<br><img src="https://uploads-ssl.webflow.com/5e3ce2ec7f6e53c045fe7cfa/5f7ef178430aae00efb06c98_Get%20Started.svg" style="float:right;width:500px;height:600px;">
+<input type="text" name="heat" reqired><br>
+<b>2. How many hours do you use this heating source per day? </b>:<br>
+<input type="number" name="hrsofheat" required><br>
+<b>3. Which mode of transportation do you generally use in your daily life?</b>:<br>
+<input type="text" name="transportation" required><br>
+<b>4. How many hours do you generally travel in a day through your private vehicle?</b>:<br>
+<input type="number" name="hrs"  required><br>
+<b>5. How much red meat do you generally consume in a day? (in kg)</b>: <br>
+<input type="number" name="meat" required><br>
+<b>6. How much money do you generally spend on clothes per month?  (in dollars)</b>:<br>
+<input type="number" name="clothes" required><br>
+<b>7. For how many hours do you use air conditioner per day?</b>:<br>
+<input type="number" name="ac" required><br>
+<b>8. How much money do you generally spend on furniture per month?(in dollars)</b>:<br>
+<input type="number" name="furniture" required><br>
+<b> 9. How many times do you give your clothes for laundry in a week? </b>: <br>
+<input type="number" name="laundary" required><br>
+<b> 10. How many hours do you spend running a treadmill? </b>: <br>
+<input type="number" name="treadmill" required><br>
+<b>11. How many papers do you generally consume in a day? </b>: <br>
+<input type="number" name="papers" required><br>
+
+<img  src="https://uploads-ssl.webflow.com/5e3ce2ec7f6e53c045fe7cfa/5e422b697e27946184ae51f1_location-p-800.png">
+<div id="q">
+<b>Enter the ISO alpha-3 of your country </b>: <br>
+<input type="text" name="crcode" required><br>
+
+        </div>
+
+<br><input type="submit" name="confirm">
+<table width="100%" height="60" border="0" cellspacing="5" cellpading="5" bgcolor="#000000">
+        <tr>
+            <td align="center">
+                <font face="Verdana" color="white">
+                    Get your Country ISO alpha-3 code <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3#Officially_assigned_code_elements">here</a><br>
+                </font>
+            </td>
+        </tr>
+    </table>
+</fieldset>
+</form>
+
+</body>
+</html>
