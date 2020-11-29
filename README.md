@@ -12,8 +12,8 @@ Team name : **Coding Clan**
 * [About project](#about)
 * [The Idea](#our-idea-in-figma)
 * [Technologies](#technologies)
-  * Languages
-  * Environment
+  * [Languages](#languages)
+  * [Environment](#environment)
 * [Project Status](#project-status)
 ## What is Carbon footprint
 [![Watch the video](https://github.com/Team-Coding-Clan/APIHacks_CodingClan/blob/main/image/cover.png)](https://www.youtube.com/watch?v=JmtKc1YMSdY&feature=youtu.be)
@@ -30,8 +30,10 @@ Pre = Prevention.
 [![Watch the video](https://github.com/Team-Coding-Clan/APIHacks_CodingClan/blob/main/image/cover2.png)](https://youtu.be/QIAm1mmMVAE)
 ## Technologies
 Project is created with:
-* Python
-* HTML / CSS
-* Pycharm (Django framework)
+### Languages
+   * Python
+   * HTML / CSS
+### Environment 
+   * Pycharm (Django framework)
 ## Project Status
 This project is a prototype of the idea the team wishes to implement. The basic idea of the project is accomplished.
